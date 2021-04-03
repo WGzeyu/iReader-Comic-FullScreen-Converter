@@ -8,7 +8,7 @@
 ### 使用方法
 
 1. 前往KCC官网下载KCC并安装、运行：[https://kcc.iosphe.re/](https://kcc.iosphe.re/)
-2. KCC调整以下设置：设备Other、格式EPUB、Gamma:Auto、Width:760、Height:1024（该分辨率为青春版，别的设备自己看着设）
+2. KCC调整以下设置：设备Other、格式EPUB、Gamma:Auto、Width:760、Height:1024（该分辨率为青春版设备）
 3. 将保存有漫画图片的文件夹，整个文件夹拖入KCC
 4. 点击Convert，开始将漫画转换为EPUB
 5. 下载该软件（[ICFC](https://github.com/wgzeyu/iReader-Comic-FullScreen-Converter/releases/latest)），解压后运行
