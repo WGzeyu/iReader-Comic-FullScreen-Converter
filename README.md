@@ -12,7 +12,7 @@
 3. 将保存有漫画图片的文件夹，整个文件夹拖入KCC
 4. 点击Convert，开始将漫画转换为EPUB
 5. 下载该软件（[ICFC](https://github.com/wgzeyu/iReader-Comic-FullScreen-Converter/releases/latest)），解压后运行
-6. 将KCC转换出的EPUB文件拖入该软件（ICFC）
+6. 将KCC转换出的EPUB文件**拖入**该软件（ICFC）
 7. 点击开始转换，即可转换为可以在iReader中完全全屏显示的EPUB格式
 8. 将转换完毕的EPUB格式导入iReader阅读器 
 
