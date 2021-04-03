@@ -14,7 +14,9 @@
 5. 下载该软件（[ICFC](https://github.com/wgzeyu/iReader-Comic-FullScreen-Converter/releases/latest)），解压后运行
 6. 将KCC转换出的EPUB文件**拖入**该软件（ICFC）
 7. 点击开始转换，即可转换为可以在iReader中完全全屏显示的EPUB格式
-8. 将转换完毕的EPUB格式导入iReader阅读器 
+8. 将转换完毕的EPUB格式导入iReader阅读器  
+
+![](img/a3.gif)
 
 ### 效果对比
 
