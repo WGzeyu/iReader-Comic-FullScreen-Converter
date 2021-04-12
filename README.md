@@ -3,7 +3,7 @@
  
  下载地址：[https://github.com/wgzeyu/iReader-Comic-FullScreen-Converter/releases/latest](https://github.com/wgzeyu/iReader-Comic-FullScreen-Converter/releases/latest)  
  
- 本项目采用易语言编写，引用了[精易模块](http://ec.125.la/)与[7-Zip](https://www.7-zip.org/)，均为开源模块。
+ 本项目采用易语言编写，引用了[精易模块](http://ec.125.la/)与[7-Zip](https://www.7-zip.org/)，均为开源项目。
 
 ### 使用方法
 
@@ -32,15 +32,16 @@ KCC导出的图片页面的html代码是这样的：
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
-  <head>
-    <title>img1</title>
-    <link href="style.css" type="text/css" rel="stylesheet" />
-    <meta name="viewport" content="width=760, height=1024" />
-  </head>
-  <body style="">
-    <div style="text-align:center;top:0.0%;">
-      <img width="760" height="1024" src="../Images/img1.png" /></div>
-  </body>
+	<head>
+		<title>img1</title>
+		<link href="style.css" type="text/css" rel="stylesheet" />
+		<meta name="viewport" content="width=760, height=1024" />
+	</head>
+	<body style="">
+		<div style="text-align:center;top:0.0%;">
+			<img width="760" height="1024" src="../Images/img1.png" />
+		</div>
+	</body>
 </html>
 ```
 而该软件转换后，引用图片的方式会被修改为css引用背景图片：
@@ -48,18 +49,18 @@ KCC导出的图片页面的html代码是这样的：
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
-  <head>
-    <title>img1</title>
-    <style type="text/css">
-    	body{
-	    	background-image:url('../Images/img1.png');
-	    	background-repeat: no-repeat;
-	    	background-size: contain;
-	    	background-position: center center;
-    	}
-	</style>
-  </head>
-  <body>
-  </body>
+	<head>
+		<title>img1</title>
+		<style type="text/css">
+			body{ 
+				background-image:url('../Images/img1.png'); 
+				background-repeat: no-repeat;
+				background-size: contain; 
+				background-position: center center; 
+			}
+		</style>
+	</head>
+	<body>
+	</body>
 </html>
 ```
