@@ -51,6 +51,7 @@ KCC导出的图片页面的html代码是这样的：
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
 	<head>
 		<title>img1</title>
+		<meta name="viewport" content="width=760, height=1024" />
 		<style type="text/css">
 			body{ 
 				background-image:url('../Images/img1.png'); 
