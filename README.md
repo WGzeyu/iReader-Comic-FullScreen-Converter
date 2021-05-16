@@ -1,5 +1,6 @@
 # iReader Comic FullScreen Converter
- 用于将KCC导出的EPUB，转换为可以在iReader阅读器上完全全屏显示的格式  
+ 用于将EPUB格式的漫画，转换为可以在iReader阅读器上完全全屏显示的格式。  
+ 或许也可以支持其他阅读器，符合EPUB规范，但**没有在其他阅读器上测试过**。
  
  下载地址：[https://github.com/wgzeyu/iReader-Comic-FullScreen-Converter/releases/latest](https://github.com/wgzeyu/iReader-Comic-FullScreen-Converter/releases/latest)  
  
@@ -51,6 +52,7 @@ KCC导出的图片页面的html代码是这样的：
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
 	<head>
 		<title>img1</title>
+		<meta name="viewport" content="width=760, height=1024" />
 		<style type="text/css">
 			body{ 
 				background-image:url('../Images/img1.png'); 
