@@ -1,6 +1,6 @@
 # iReader Comic FullScreen Converter
  用于将EPUB格式的漫画，转换为可以在iReader阅读器上完全全屏显示的格式。  
- 或许也可以支持其他阅读器，符合EPUB规范，但**没有在其他阅读器上测试过**。
+ 除了转换图片以外，还支持简繁互转、“「互转、修复部分文件在iReader左下角章节空白、修复部分文件的换行排版
  
  下载地址：[https://github.com/wgzeyu/iReader-Comic-FullScreen-Converter/releases/latest](https://github.com/wgzeyu/iReader-Comic-FullScreen-Converter/releases/latest)  
  
@@ -16,6 +16,8 @@
 6. 将KCC转换出的EPUB文件**拖入**该软件（ICFC）
 7. 点击开始转换，即可转换为可以在iReader中完全全屏显示的EPUB格式
 8. 将转换完毕的EPUB格式导入iReader阅读器  
+
+**注意：勾选文本转换选项时会自动勾选“不进行图片转换”，如果需要对图片进行全屏转换，请取消勾选“不进行图片转换”。**
 
 ![](img/a3.gif)
 
