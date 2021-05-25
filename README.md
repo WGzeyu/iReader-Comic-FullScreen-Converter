@@ -6,6 +6,8 @@
  
  本项目采用易语言编写，引用了[精易模块](http://ec.125.la/)与[7-Zip](https://www.7-zip.org/)，均为开源项目。
 
+ ![](img/a4.png)
+
 ### 使用方法
 
 1. 前往KCC官网下载KCC并安装、运行：[https://kcc.iosphe.re/](https://kcc.iosphe.re/)
